@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X, User } from 'lucide-react';
 import { useState } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
@@ -50,7 +50,7 @@ export default function Navigation(props: NavigationProps) {
           {/* Brand */}
           <div className="flex items-center space-x-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <Zap className="h-5 w-5" aria-hidden="true" />
+              <User className="h-5 w-5" aria-hidden="true" />
             </div>
             <span className="text-xl font-bold text-foreground" data-editable="brandName">
               {config.brandName}
@@ -107,7 +107,7 @@ export default function Navigation(props: NavigationProps) {
                   <div className="flex items-center justify-between pb-6 border-b border-border">
                     <div className="flex items-center space-x-2">
                       <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                        <Zap className="h-5 w-5" aria-hidden="true" />
+                        <User className="h-5 w-5" aria-hidden="true" />
                       </div>
                       <span className="text-xl font-bold text-foreground" data-editable="brandName">
                         {config.brandName}
