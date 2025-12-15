@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
 const DEFAULT_HERO = {
-  title: 'Build Smarter, Ship Faster',
+  title: 'Test Smarter, Ship Faster',
   subtitle:
     'The all-in-one platform that automates your development workflow, reduces deployment time by 80%, and scales with your team from startup to enterprise.',
   ctaText: 'Start Free Trial',
